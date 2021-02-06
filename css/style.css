@@ -22,16 +22,16 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-    border-bottom: 3px solid #DDD;
+    
   }
 
  .logo {
     height: 70px;
+    margin: 2%;
   }
   
   .caja1 {
-    width: 90%;
-    margin-top: 15px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -42,6 +42,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+
 
   .navegar {
     width: 100%;
@@ -56,6 +57,25 @@ body {
     cursor: pointer;
     color: orange;
   }
+
+  @media (max-width: 400px){
+    nav{
+        background-image: url("../img/menu-hamburger.svg");
+        background-size: 50px;
+        background-repeat: no-repeat;
+        margin: 10px;
+        background-position: right;
+    }
+
+    .logo{
+        height: 50%;
+    }
+
+    .navegar{
+        font-size: 10px;
+        display: none;
+    }
+  }
   
   .banner {
     background-image: url("../img/first-background.jpg");
@@ -65,6 +85,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (max-width: 400px){
+    .banner{
+        height: 300px;
+    }
   }
 
   .caja2 {
@@ -125,3 +151,37 @@ body {
     margin: 10px 10px;
     font-weight: 300;
     text-align: center;
+  }
+
+  div > h2{
+      font-size: 20px;
+      text-align: center;
+  }
+
+  @media (max-width: 400px){
+    .caja3 > h1 {
+        font-size: 30px;
+        margin: 10px 10px;
+        font-weight: 300;
+        text-align: center;
+      }
+    
+      .logotipos {
+        width: 80px;
+        height: 127px;
+        align-self: center;
+    }
+
+    div > h2{
+        font-size: 15px;
+        text-align: center;
+    }
+
+  }
+
+  .social {
+    width: 127px;
+    height: 127px;
+    align-self: center;
+  }
+
