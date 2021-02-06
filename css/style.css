@@ -16,4 +16,112 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+ .header {
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 3px solid #DDD;
+  }
 
+ .logo {
+    height: 70px;
+  }
+  
+  .caja1 {
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navegar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 17px;
+    list-style: none;
+  }
+  
+  .navegar-lista:hover {
+    cursor: pointer;
+    color: orange;
+  }
+  
+  .banner {
+    background-image: url("../img/first-background.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja2 {
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  button {
+    align-items: center;
+    width: 170px;
+    background-color: rgb(255, 166, 0);
+    border-color: rgb(255, 166, 0);
+    border-radius: 10px;
+    padding: 16px 16px;
+    color: white;
+    font-size: 17px;
+  }
+
+  .contenido {
+    background-color:white;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .caja3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+  }
+
+  .lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logotipos {
+    width: 127px;
+    height: 127px;
+    align-self: center;
+  }
+
+  .lista > li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  .caja3 > h1 {
+    font-size: 60px;
+    margin: 10px 10px;
+    font-weight: 300;
+    text-align: center;
