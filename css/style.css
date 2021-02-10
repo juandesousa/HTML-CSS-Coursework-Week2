@@ -58,7 +58,7 @@ body {
     color: orange;
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 900px){
     nav{
         background-image: url("../img/menu-hamburger.svg");
         background-size: 50px;
@@ -87,7 +87,7 @@ body {
     align-items: center;
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 900px){
     .banner{
         height: 300px;
     }
@@ -158,7 +158,7 @@ body {
       text-align: center;
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 900px){
     .caja3 > h1 {
         font-size: 30px;
         margin: 10px 10px;
@@ -193,7 +193,7 @@ body {
     flex-direction: column;
   }
   
-  @media (max-width: 37.5em) {
+  @media (max-width: 900px) {
     .social__content {
       width: 100%;
     }
